@@ -1,8 +1,8 @@
 ﻿try
 {
-    Console.WriteLine("Введите первое число ");
+    Console.WriteLine("Введите первое целое число ");
     int x=Convert.ToInt32 (Console.ReadLine());
-    Console.WriteLine("Введите второе число ");
+    Console.WriteLine("Введите второе целое число ");
     int y=Convert.ToInt32 (Console.ReadLine());
     if (x>y)
         {
@@ -12,5 +12,5 @@
 }
 catch
 {
-Console.WriteLine("Необходимо ввести число цифрами");
+Console.WriteLine("Необходимо ввести целое число цифрами");
 }
